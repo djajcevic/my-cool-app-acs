@@ -41,3 +41,4 @@ jobs:
           docker tag djajcevic/my-cool-app:${{ github.sha }} djajcevic/my-cool-app:latest
           docker push djajcevic/my-cool-app:${{ github.sha }}
           docker push djajcevic/my-cool-app
+          
